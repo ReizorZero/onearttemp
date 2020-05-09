@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ONE ART</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <!-- <link rel="stylesheet" href="css/news_items.css"> -->
+    <link rel="stylesheet" href="css/obtain.css">
+</head>
+
+<!-- <body style="width: 1920px; height: 2214px;"> -->
+
+<body>
+
+    <div class="pp"></div>
+
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html" style="text-decoration: none;">
+                <img src="img/logo.png" alt="" class="logo">
+            </a>
+        </div>
+        <!-- <div class="header__progressbar progressbar"> -->
+        <div class="header__progressbar">
+            <span class="progressbar__min">1</span>
+            <div class="progressbar__bar">
+                <div class="progressbar__progressline"></div>
+            </div>
+            <span class="progressbar__max">1000</span>
+        </div>
+        <!-- <div class="header__buttons buttons-group"> -->
+        <div class="header__buttons">
+            <label class="switch-btn">
+                <input type="checkbox">
+                <span class="switch-btn__slider"></span>
+            </label>
+            <button class="searchbar">
+                <img src="img/searchbar-icon.svg" alt="" class="searchbar__icon">
+            </button>
+            <button class="login-btn">
+                <a href="profile.html" style="text-decoration: none;">
+                    <img src="img/profile.svg" alt="" class="login-btn__icon">
+                </a>
+            </button>
+        </div>
+        <!-- <nav class="header__menu menu"> -->
+        <nav class="header__menu">
+            <ul class="menu__list">
+                <li class="menu__list-item">
+                    <a href="obtain.html" class="menu__list-link menu__list-item_first">Obtain</a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="cooperate.html" class="menu__list-link">Cooperate</a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="explore.html" class="menu__list-link">Explore</a>
+                </li>
+                <li class="menu__list-item">
+                    <a href="index.html" class="menu__list-link">About us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page">
+        <section>
+            <nav class="header__menu" style="justify-content: flex-start; padding-left: 60px;">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a href="obtain.html" class="menu__list-link menu__list-item_first">Pictures</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="cooperate.html" class="menu__list-link">Clothes</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="explore.html" class="menu__list-link">Decor</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="index.html" class="menu__list-link">Accessories</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="news" style="margin-top: 50px;">
+
+            <!-- <div class="news-row"> -->
+            <div class="item-1">
+                    <div class="news-item__image" style="background-image: url('img/il_794xN (2).png');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/1.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"Middsummer", Joe Coel</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(1)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-1">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">From collection "Barn Years".</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                310,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-2">
+                    <div class="news-item__image" style="background-image: url('img/il_794xN (1).png');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="artwork.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"Noblesse", Vincent Careira</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(2)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-2">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">"I still miss the mountains. I love them more than
+                            anything."</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                152,30
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-3">
+                    <div class="news-item__image" style="background-image: url('img/il_794xN 1.png');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/2.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"Autumn in love", Marcelie Mar</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(3)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-3">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">From the cycle "Memories".</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                96,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-4">
+                    <div class="news-item__image" style="background-image: url('img/il_794xN.png');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/3.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"Waters Of Sobriety", Jim Aik</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(4)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-4">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">Abstract work from art-project "Vital and Mortal".</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                710,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+            <!-- </div> -->
+
+            <!-- <div class="news-row"> -->
+            <div class="item-5">
+                    <div class="news-item__image" style="background-image: url('img/art_2.jpg'); background-position: top;">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/4.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"Peggy", Gou Deedzh</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(5)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-5">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">Romantic and naive, one of the latest works of famous
+                            japaneese oil artist.</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                1670,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-6">
+                    <div class="news-item__image" style="background-image: url('img/art_1.jpg'); background-position: top;">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/5.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"Joy", Rita Saks</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(6)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-6">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">"I can't stop thinking about how beautiful the youth are.
+                            So I paint them."</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                175,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-7">
+                    <div class="news-item__image" style="background-image: url('img/art_3.jpg');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/6.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"The Void", Rob Jaquinn</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(7)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-7">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">"It has no deep meaning at all, I just love mixing colors.
+                            No jokes. I'm serious."</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                114,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-8">
+                    <div class="news-item__image" style="background-image: url('img/art_4.jpg');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/7.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"Loss", Tony Werdara</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(8)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-8">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">From art cycle "Green Childhood, Transparent Adulthood".</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                86,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-9">
+                    <div class="news-item__image" style="background-image: url('img/art_5.jpg');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/8.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"The Calm Day", Matt Harsio</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(9)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-9">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">Exhibited in NY Museum of Modern Arts. Now for sale.</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                2690,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-10">
+                    <div class="news-item__image" style="background-image: url('img/art_6.jpg');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/9.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"No Trespassing", Yonas Uoth</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(10)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-10">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">"Reminds me of a place I've never been to - and never
+                            will."</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                190,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-11">
+                    <div class="news-item__image" style="background-image: url('img/art_7.jpg');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/10.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"French Girl", Yana Mei</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(11)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-11">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">From art cycle "I Hate Loving Paris So Much".</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                410,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+
+            <div class="item-12">
+                    <div class="news-item__image" style="background-image: url('img/art_8.jpg');">
+                    </div>
+                    <div class="news-item__title">
+                        <a href="templates/artworks/11.html" style="text-decoration: none;">
+                            <p class="news-item__title-text">"The Blue Above", Jenny Caryll</p>
+                        </a>
+                        <button class="news-item__bookmark-btn" onclick="f(12)">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon" id="id-12">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">"The color of the sky and the feeling of sorrow is defined
+                            by the same word. Symbolic, isn't it?"</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                210,00
+                            </span>
+                        </p>
+                    </div>
+            </div>
+            <!-- </div> -->
+
+        </section>
+
+        <section class="go-to">
+            <div class="go-to-group">
+                <a href="" class="go-to-group__item go-to-group__item_active">1</a>
+                <a href="" class="go-to-group__item">2</a>
+                <a href="" class="go-to-group__item">3</a>
+                <a href="" class="go-to-group__item">4</a>
+                <a href="" class="go-to-group__item">5</a>
+                <span class="go-to-group__item-dots">...</span>
+                <a href="" class="go-to-group__item">11</a>
+            </div>
+        </section>
+
+        <div id="snackbar">Added to bookmarks</div>
+        <div id="snackbar-2">Removed from bookmarks</div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
+    <script src="js/bookmarks.js"></script>
+</body>
+
+</html>

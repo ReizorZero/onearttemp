@@ -1,0 +1,169 @@
+:root {
+    --basic-white: #FFFFFF;
+    --basic-light-grey: #DBDBDB;
+    --basic-grey: #A8A8A8;
+    --basic-black: #303030;
+    --basic-blue: #008DE0;
+}
+
+/* pp */
+
+.pp {
+    width: 1920px;
+    /* width: 100%; */
+    /* height: 1080px; */
+    height: 2214px;
+    opacity: 0.5;
+    background-image: url('../pp/page_Cooperate\ artist.png');
+    z-index: -666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.artist {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 60px;
+}
+.artist__photo {
+    width: 25%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 40px; */
+}
+.artist__photo-image {
+    /* width: 84%; */
+    /* width: calc((100vw * 0.2) - 20px); */
+    width: 275px;
+    min-width: 275px;
+}
+.artist__info {
+    /* width: 25%; */
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; */
+}
+.artist__info-block {
+    text-align: center;
+}
+.artist__name {
+}
+.artist__field {
+    padding-top: 10px;
+}
+.artist__about {
+    /* width: 50%; */
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start; */
+    /* padding: 20px; */
+    /* background-color: peachpuff; */
+}
+.artist__about-block {
+    padding: 20px;
+}
+.artist__title {
+    padding-bottom: 20px;
+}
+.artist__text {
+    width: 70%;
+    /* padding-top: 20px; */
+}
+.artist__contact-btn {
+    width: 87px;
+    height: 34px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* line-height: 22px; */
+    background-color: var(--basic-blue);
+    color: var(--basic-white);
+    /* margin: 0px 10px 0px 35px; */
+    cursor: pointer;
+    margin-top: 7%;
+}
+.artist__contact {
+    width: 100%;
+    /* padding-left: 18px; */
+    padding: 0px 0px 0px 40px;
+    /* display: flex;
+    justify-content: flex-start; */
+}
+.artist__contact-btn:hover {
+    border: 0.5px solid var(--basic-blue);
+    background-color: var(--basic-white);
+    color: var(--basic-blue);
+}
+
+.works {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+}
+.works__item {
+    height: 275px;
+    background-color: var(--basic-white);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.works__item_square {
+    /* width: calc(22% - 20px); */
+    /* min-width: 275px; */
+    width: 275px;
+    height: 275px;
+    background-color: var(--basic-white);
+    /* margin: 10px; */
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.works__item:hover,
+.works__item_square:hover {
+    opacity: 0.7;
+}
+
+
+/* EDIT THIS -- CLASS NAME CONFLICT  */
+.title {
+    padding-left: 28px;
+    /* padding-top: 34px; */
+}
+
+#row-id {
+    display: none;
+}
+                            
+.more {
+    width: 100%;
+    padding: 34px 0px;
+}
+.more-btn {
+    width: 87px;
+    height: 34px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: var(--basic-blue);
+    color: var(--basic-white);
+    margin: 0px 10px 0px 35px;
+    cursor: pointer;
+}
+.more-btn:hover {
+    border: 0.5px solid var(--basic-blue);
+    background-color: var(--basic-white);
+    color: var(--basic-blue);
+}

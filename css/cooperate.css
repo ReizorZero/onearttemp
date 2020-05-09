@@ -1,0 +1,23 @@
+:root {
+    --basic-white: #FFFFFF;
+    --basic-light-grey: #DBDBDB;
+    --basic-grey: #A8A8A8;
+    --basic-black: #303030;
+    --basic-blue: #008DE0;
+}
+
+/* pp */
+
+.pp {
+    width: 1920px;
+    /* width: 100%; */
+    /* height: 1080px; */
+    height: 2214px;
+    opacity: 0.5;
+    background-image: url('../pp/page_Cooperate.png');
+    z-index: -666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}

@@ -1,0 +1,209 @@
+:root {
+    --basic-white: #FFFFFF;
+    --basic-light-grey: #DBDBDB;
+    --basic-grey: #A8A8A8;
+    --basic-black: #303030;
+    --basic-blue: #008DE0;
+}
+
+.title-section {
+    width: 100%;
+}
+.title-section__title-big {
+    padding: 50px 0px 24px 0px;
+}
+
+.news {
+    width: 100%;
+    padding: 40px 30px 0px 30px;
+    /* opacity: 0.5; */
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+/* .news-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+} */
+.news-item {
+    width: 405px;
+    width: 21.0935%;
+    /* background-color: var(--basic-white); */
+    margin: 55px 30px 55px 30px;
+    margin: 2.8645% 1.5625% 2.8645% 1.5625%;
+    background-color: crimson;
+    min-height: 480px;
+    position: relative;
+}
+.news-item__date {
+    /* background-color: var(--basic-white); */
+}
+.news-item__date-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0px 0px 19px 0px;
+}
+.news-item__date-text_accent {
+    color: var(--basic-blue);
+}
+.news-item__image {
+    width: 405px;
+    width: 100%;
+    height: 205px;
+    height: 42.7083%;
+    position: absolute;
+
+    /* height: 100%; */
+    background-color: var(--basic-light-grey);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.news-item__title {
+    width: 100%;;
+    /* background-color: var(--basic-white); */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 23px 60px 18px 30px;
+    position: relative;
+    margin-top: 55%;
+}
+.news-item__title-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    cursor: pointer;
+}
+.news-item__title-text:hover {
+    color: var(--basic-blue);
+}
+.news-item__bookmark-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.news-item__bookmark-btn:hover {
+    opacity: 0.7;
+}
+.news-item__bookmark-icon {
+    width: 17px;
+    height: 25px;
+}
+.news-item__subtitle {
+    /* background-color: var(--basic-white); */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.news-item__subtitle-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--basic-grey);
+    padding: 0px 30px 7px 30px;
+}
+
+.news-item__price {
+    padding: 0px 30px 7px 30px;
+}
+.news-item__news-item__price-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 38px;
+}
+.news-item__news-item__price-text_accent {
+    color: var(--basic-blue);
+}
+
+.news-row_major {}
+.news-item_major {
+    width: 870px;
+    width: 45.3125%;
+    min-height: 652px;
+    position: relative;
+}
+/* style */
+.news-item_major .news-item__title {
+    margin-top: 50%;
+}
+.news-item__image_major {
+    width: 870px;
+    width: 100%;
+    height: 405px;
+    height: 63.0841%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.news-item_major-square {
+    width: 405px;
+    width: 21.0935%;
+    min-height: 652px;
+    position: relative;
+}
+/* style */
+.news-item_major-square .news-item__title {
+    margin-top: 107%;
+}
+.news-item__image_major-square {
+    width: 405px;
+    width: 100%;
+    height: 405px;
+    height: 63.0841%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.go-to {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 43px 0px 98px 0px;
+}
+.go-to-group {
+}
+.go-to-group__item {
+    background-color: var(--basic-white);
+    color: var(--basic-black);
+    margin: 3px;
+    /* padding: 9px 15px 6px 15px; */
+    padding: 10px 16px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.go-to-group__item:hover {
+    padding: 7px 13px 4px 13px;
+    border: 2px solid var(--basic-blue);
+}
+.go-to-group__item_active {
+    background-color: var(--basic-blue);
+    color: var(--basic-white);
+}
+.go-to-group__item-dots {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}

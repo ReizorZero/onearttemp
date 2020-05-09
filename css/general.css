@@ -1,0 +1,130 @@
+:root {
+    --basic-white: #FFFFFF;
+    --basic-light-grey: #DBDBDB;
+    --basic-grey: #A8A8A8;
+    --basic-black: #303030;
+    --basic-blue: #008DE0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+    color: var(--basic-black);
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    height: 118px;
+    /* background-color: var(--basic-white); */
+    /* background-color: var(--basic-blue); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 1;
+}
+
+.logo {
+    width: 96px;
+    height: 96px;
+}
+
+/* PAGE */
+
+.page {
+    width: 1920px;
+    width: 100%;
+    height: 100%;
+    /* background-color: var(--basic-white); */
+    padding-top: 118px;
+    display: flex;
+    flex-flow: column wrap;
+    /* background-color: rgba(128, 128, 128, 0.2); */
+}
+
+.content-group {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* TITLES */
+
+.title-big {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 24px;
+}
+
+.title {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.subtitle {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--basic-grey);
+}
+
+/* REMOVE TO OTHER FILE THEN */
+
+#snackbar,
+#snackbar-2 {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: var(--basic-blue); /* Black background color */
+    color: var(--basic-white); /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show,
+  #snackbar-2.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
